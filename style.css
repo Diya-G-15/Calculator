@@ -1,0 +1,48 @@
+body{
+    background-image: url('background.png');
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-size: cover;
+}
+
+h1 {
+    text-align: center;
+}
+
+.container {
+    margin: auto;
+    max-width: fit-content;
+}
+
+.display {
+    display: flex;
+}
+
+.row input {
+    background-color: rgb(176, 174, 174);
+    border: 2px solid black;
+    border-radius: 10px;
+    width: 68%;
+    padding: 25px 10px;
+    height: 30px;
+    font-size: 20px;
+}
+
+.button {
+    background-color: rgb(146, 145, 145);
+    padding: 38px;
+    margin: 4px 4px;
+    width: 30px;
+    height: 30px;
+    font-size: 20px;
+    font-weight: 400;
+    border: 2px solid black;
+    border-radius: 10px;
+    cursor: pointer;
+}
+
+.button:hover {
+    background-color: #111112;
+    color: white;
+    transition: 0.5s ease-in-out;
+}
